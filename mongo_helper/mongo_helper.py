@@ -46,7 +46,7 @@ class MongoHelper:
         """
         self.py_mongo_db[self.collection].insert_one(data)
 
-    def find_one_by(self, find_by, value):
+    def find_one_by(self, find_by: str, value):
         """
                 Find a document in the MongoDB collection based on a specific field and value.
 
